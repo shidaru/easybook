@@ -1,0 +1,4 @@
+docker/db/data/*
+docker/db/initdb.d/members.csv
+docker/db/initdb.d/admin.csv
+app/__pycache__
