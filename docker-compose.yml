@@ -5,9 +5,6 @@ services:
     container_name: eb-app
     build:
       context: ./docker
-      args:
-        HTTP_PROXY: http://proxy.nagaokaut.ac.jp:8080
-        HTTPS_PROXY: http://proxy.nagaokaut.ac.jp:8080
     ports:
       - "5001:5000"
     volumes:
